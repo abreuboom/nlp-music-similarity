@@ -18,5 +18,5 @@ for file in os.listdir(years):
             data = json.load(json_file)
             top_songs[year] = data
 
-
-print(top_songs["1950"][-1]["lyrics"])
+# Example Statement
+# print(top_songs["1950"][15]["lyrics"])
